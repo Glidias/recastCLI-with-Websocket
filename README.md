@@ -1,7 +1,6 @@
 # RecastCLI
-![](https://user-images.githubusercontent.com/7625588/36931426-d560d6aa-1eef-11e8-96a2-14812f7994a3.png)
 
-A command line tools to build navigation mesh for game, which means you can automatically generate navigation mesh on server or localhost in pipeline via NodeJS.
+A command line tools to build navigation mesh for game, which means you can automatically generate navigation mesh on server or localhost in pipeline via NodeJS. This fork uses an example with Websocket/HTTP integration.
 
 > Based on [recastnavigation](https://github.com/recastnavigation/recastnavigation) under ZLib license
 
