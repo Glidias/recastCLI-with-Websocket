@@ -34,7 +34,7 @@ When your Websocket server receives the appropiate buffer request, (todo: spec t
 With your server running,
 
 Go to Navmesh Generation scene example at 
-https://playcanvas.com/editor/scene/645878 and Play it on http protocol (remember to switch play url from `https` to `http` in order to properly access http://localhost...):
+https://playcanvas.com/editor/scene/645878 and Play it on http protocol (remember to switch play url from `https` to `http` in order to properly access your localhost...):
 
 Project example at:
 https://playcanvas.com/project/573035/overview/sketchfab-assets-tests
