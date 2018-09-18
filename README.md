@@ -2,7 +2,7 @@
 
 A command line tools to build navigation mesh for game, which means you can automatically generate navigation mesh on server or localhost in pipeline via NodeJS. This fork uses an example with Websocket/HTTP integration.
 
-![](https://gitcdn.xyz/repo/username/projectname/branch/path/to/img.png)
+![](https://github.com/Glidias/recastCLI-with-Websocket/raw/nodejs/screenshot.png)
 
 *Above: Usage with Playcanvas. Model used: https://sketchfab.com/models/b874cb19b42741729b950f6afbdf0dea
 
