@@ -13,7 +13,7 @@ $ node-gyp rebuild
 ## Installing Dependencies
 ```shell
 $ npm install --save websocket
-$ npm install --http websocket
+$ npm install --save http
 ```
 
 ## Usage
