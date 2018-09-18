@@ -42,7 +42,7 @@ https://playcanvas.com/editor/scene/645878 and Play it on http protocol (remembe
 Project example at:
 https://playcanvas.com/project/573035/overview/sketchfab-assets-tests
 
-All script dependencies are required from project. Besides building up a Collision Scene for fast 3D basic collision detection movement and raycasting,  it also has an option to connect to websocket server and help to produce a Navmesh, which will prove useful later on for handling AI movement, point+click movement, automatic spawn location generation, giving commands to AI units to move around, etc.
+All script dependencies are required from project (by convention only). Besides building up a Collision Scene for fast 3D basic collision detection movement and raycasting,  it also has an option to connect to websocket server and help to produce a Navmesh, which will prove useful later on for handling AI movement, point+click movement, automatic spawn location generation, giving commands to AI units to move around, etc.
 
 There are 2 key scripts involved:
 
