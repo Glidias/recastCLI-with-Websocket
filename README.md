@@ -19,7 +19,7 @@ $ npm install --http websocket
 
 ## Usage
 
-Run the `start.js` script on node to start your Websocket server. By default, it's set on localhost.
+Run the `start.js` script on node to start your Websocket server. By default, it's set on `ws://localhost:9090`.
 
 ```shell
 $ node start
