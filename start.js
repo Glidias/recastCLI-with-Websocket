@@ -63,7 +63,7 @@ wsServer.on("request", function (request) {
   
     var verticesLen = arr[13] * 3;
     var indicesLen = arr[14] * 3;
-    console.log("Loading build array:..." + arr.length)
+    console.log("Loading build array:..." +arr[13] + " vertices, " + arr[14] + " faces")
     recast.loadArray(new Float32Array( arr.slice(15, 15 + verticesLen) ), new Int32Array( arr.slice(15+verticesLen, 15+verticesLen+indicesLen ) ));
     console.log("Building:...")
     var result = recast.build(arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6], arr[7], arr[8], arr[9], arr[10], arr[11], arr[12]); // return string
