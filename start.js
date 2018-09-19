@@ -63,9 +63,9 @@ wsServer.on("request", function (request) {
   
     var verticesLen = arr[13] * 3;
     var indicesLen = arr[14] * 3;
-      console.log("Loading build array:...")
+    console.log("Loading build array:..." + arr.length)
     recast.loadArray(new Float32Array( arr.slice(15, 15 + verticesLen) ), new Int32Array( arr.slice(15+verticesLen, 15+verticesLen+indicesLen ) ));
-       console.log("Building:...")
+    console.log("Building:...")
     var result = recast.build(arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6], arr[7], arr[8], arr[9], arr[10], arr[11], arr[12]); // return string
     // console.log(result);
     recast.save("navmesh.obj");
@@ -98,9 +98,9 @@ wsServer.on("request", function (request) {
            }
            connection.recastStreamI += arr.length;
            if (connection.recastStreamI >=  connection.recastStream.length) {
-              connection.recastStream = null;
               console.log("Recast stream done...");
               buildRecastFromFloat32Array(connection.recastStream);
+              connection.recastStream = null;
            }
        }
        else {
